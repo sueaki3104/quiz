@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/quiz_kadai_2.css">
+    <title>並び替えクイズ</title>
+    <meta name="viewport" content="width=320,
+      height=480,
+      initial-scale=1.0,
+      minimum-scale=1.0,
+      maximum-scale=2.0,
+      user-scalable=yes" />
+</head>
+
+<body>
+    <div id="start">
+        <p>ゲームを始める</p>
+        <p>選択肢が４つ出てきます。問題文の通りに並べ替えてください。</p>
+        <p>クリックするとスタートします</p>
+    </div>
+    <div id="game">
+        <h1></h1>
+        <div id="field">
+            <div id="answer-area">
+                <div class="answer">1</div>
+                <div class="answer">2</div>
+                <div class="answer">3</div>
+                <div class="answer">4</div>
+            </div>
+            <div id="select-area">
+                <div class="select">1</div>
+                <div class="select">2</div>
+                <div class="select">3</div>
+                <div class="select">4</div>
+            </div>
+        </div>
+        <div id="btn">
+            <button onclick="showQuestion()">リセット</button>
+        </div>
+    </div>
+    <div id="next">
+
+    </div>
+
+    <script type="text/javascript" src="quiz_kadai_2.js"></script>
+</body>
+
+</html>

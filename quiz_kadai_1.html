@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz_kadai_1.css">
+    <link src="quiz_kadai_1.js">
+    
+
+</head>
+<body>
+    <div class="quizzes-container">
+        <h1>クイズ </h1>
+        <div class="quiz-container">
+            <h2>第1問</h2>
+            <div>
+                <p>枕草子の作者はだれ？</p>
+            </div>
+            <form id="quiz-1">
+                <input name="answer" type="radio" value="a">紫式部
+                <input name="answer" type="radio" value="b">清少納言
+                <input name="answer" type="radio" value="c">小野小町
+            </form>
+            <button class="btn" type="button" onclick="answerQuiz1();">回答する</button>
+        </div>
+        <div class="quiz-container">
+            <h2>第2問</h2>
+            <div>
+                <p>国旗に5つの星がある国は？</p>
+            </div>
+                <form id="quiz-2">
+                <input name="answer" type="radio" value="a">中国
+                <input name="answer" type="radio" value="b">ニュージーランド
+                <input name="answer" type="radio" value="c">オーストラリア
+            </form>
+            <button class="btn" type="button" onclick="answerQuiz2();">回答する</button>
+        </div>
+        <div class="quiz-container">
+            <h2>第3問</h2>
+            <div>
+                <p>世界で一番長い川は？</p>
+            </div>
+            <form id="quiz-3">
+                <input name="answer" type="radio" value="a">アマゾン
+                <input name="answer" type="radio" value="b">ミシシッピ
+                <input name="answer" type="radio" value="c">ナイル
+            </form>
+            <button class="btn" type="button" onclick="answerQuiz3();">回答する</button>
+        </div>
+        <div id="score-container">
+            <p id="score-message"></p>
+        </div>
+        <button class="btn-score" type="button" onclick="showScore();">合計得点を見る</button>
+    </div>
+    
+</body>
+</html>

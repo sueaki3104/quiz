@@ -1,0 +1,67 @@
+div.is-hidden {
+    display: none;
+}
+
+div.is-visible {
+    display: block;
+}
+
+body {
+    text-align: center;
+    user-select: none;
+}
+
+.answer {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #f00303;
+    /*文字色*/
+    background: #FFF;
+    /*背景色*/
+    border: solid 3px #14cb29;
+    /*線*/
+    border-radius: 10px;
+    /*角の丸み*/
+}
+
+.select {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;
+    /*文字色*/
+    background: #FFF;
+    /*背景色*/
+    border: solid 3px #cc5709;
+    /*線*/
+    border-radius: 10px;
+    /*角の丸み*/
+}
+
+.select:hover {
+    background: #333;
+    /*背景色*/
+    border: 2px solid #333;
+    color: #fff;
+    /*文字色*/
+    cursor: pointer;
+    /*カーソルをポインターに変える*/
+}
+
+p {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;
+    /*文字色*/
+}
+
+#start:hover {
+    border: 2px solid #333;
+    /*線*/
+    cursor: pointer;
+    /*カーソルをポインターに変える*/
+}
